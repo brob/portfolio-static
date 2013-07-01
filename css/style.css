@@ -143,6 +143,7 @@ h5 {
 				line-height: 26px;
 				margin-top: 180px;
 				text-align: center;
+				text-shadow:2px 2px 2px #333;
 			}
 
 				#section-profileImage #box-name h2 {
@@ -187,6 +188,42 @@ h5 {
 	
 	#section-intro a{
 		text-decoration: none;
+	}
+	#section-works {
+		background-color:#999;
+	}
+	#section-contact {
+	}
+	#section-works .item{
+		background:none;
+	}
+
+	#section-works .item img:hover {
+		opacity:1;
+	}
+	#section-works h3 {
+		color:#222;
+		font-size:1.5em;
+	}
+	.container .five.columns.first {
+		margin-left:0;
+	}
+	#section-works .item {
+		opacity:1 !important;
+	}
+	#section-works .caption {
+		opacity:1;
+		color:#555;
+		display:block;
+	}
+	#section-works .item {
+		margin-left:0;
+	}
+	#section-works .img-wrap {
+		opacity:1;
+	}
+	#section-works .item img {
+		opacity:.9;
 	}
 
 
